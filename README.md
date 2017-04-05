@@ -1,7 +1,7 @@
 # libScroll 3.0 beta
 
 LibScroll is the Livecode library, which makes it easy to connect native scrolling to groups.
-The difference between this library is the use of one native scroller for the whole stack. 
+The main feature of this library is the use of one native scroller for the whole stack. 
 This means that the program creates one native element, and then only changes its properties if necessary.
 
 ## Installation
@@ -12,7 +12,7 @@ libScrollInit.
 
 ## Settings
 
-In the top of library you will see the settings section
+On the top of library you will see the settings section
 1. constant kScrollerName = "libScrollNative"
 2. constant kSendCallbacks = false
 3. constant kHIndicator= false
@@ -35,7 +35,7 @@ In the top of library you will see the settings section
 
 # Usage
 
-##libScrollEnable
+## libScrollEnable
 
 To enable scrolling you need to call libScrollEnable handler
 
